@@ -1,0 +1,178 @@
+body {
+    background: url(/Images/Background.JPG) no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/** BEGIN NAVBAR **/
+
+#logo {
+    font-size: 2.5rem;
+    text-shadow: 2px 0 0 #fbbfe3, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    padding-top: 5px;
+}
+
+.navbar {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7rem;
+}
+
+#nav, .navbar {
+    background-image: url(/Images/sprinkles.png) no-repeat;
+    background-size: cover;
+    padding-top: 0;
+}
+
+.nav-item .nav-link {
+    text-decoration: none;
+    text-shadow: 2px 0 0 #fbbfe3, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: white;
+}
+
+/** END NAVBAR **/
+
+/** BEGIN BODY **/
+
+#button {
+    background-color: white;
+    color: black;
+    border: 3px dashed #fbbfe3;
+    margin-top: 80px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+#button:hover {
+    background-color: #fbbfe3;
+    font-size: 2.2rem;
+    border: 3px dashed white;
+    color: white;
+}
+
+#carousel {
+    
+}
+
+.cater-text {
+    font-size: 1.5rem;
+}
+
+.events-img {
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.events1 {
+    background-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border: 3px dashed #fbbfe3;
+    border-radius: 10px;
+}
+
+.events1 {
+    margin-top: 50px;
+}
+
+.h1 {
+    background: #fbbfe3;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border: 3px dashed white;
+    margin-top: 40px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
+hr {
+    border: 3px solid #fbbfe3;
+}
+
+.hr1 {
+    margin-top: 50px;
+}
+
+.main-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-img img {
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.main-img-bg {
+    color: #fbbfe3;
+}
+
+/** END BODY **/
+
+/** BEGIN FOOTER **/
+
+footer {
+    font-size: 1.5rem;
+}
+
+.icons {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.social {
+    color: white;
+}
+
+.social:hover {
+    color: black;
+}
+
+/** END FOOTER **/
+
+/** Extra Small (575px and below) **/
+@media (max-width: 575px) {
+    
+
+}
+
+/** Small devices (landscape phones, 576px and up) **/
+@media (min-width: 576px) and (max-width: 767px) { 
+    
+
+ }
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    
+ }
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+ }
+
+/** Extra large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) { ... }
+
+
+
+}

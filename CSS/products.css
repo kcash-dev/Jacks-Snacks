@@ -1,0 +1,194 @@
+body {
+    background: url(/Images/Background.JPG) no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/** BEGIN NAVBAR **/
+
+#logo {
+    font-size: 2.5rem;
+    text-shadow: 2px 0 0 #fbbfe3, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    padding-top: 5px;
+}
+
+.navbar {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7rem;
+}
+
+#nav, .navbar {
+    background-image: url(/Images/sprinkles.png) no-repeat;
+    background-size: cover;
+    padding-top: 0;
+}
+
+.nav-item .nav-link {
+    text-decoration: none;
+    text-shadow: 2px 0 0 #fbbfe3, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: white;
+}
+
+/**END NAVBAR**/
+
+/** BEGIN BODY **/
+
+.container-fluid {
+    padding: 0;
+}
+
+.h1 {
+    background: #fbbfe3;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border: 3px dashed white;
+    margin-top: 40px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
+.product-bg {
+    background-color: white;
+    border-radius: 10px;
+    height: 180px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border: 3px dashed #fbbfe3;
+}
+
+.product-bg img {
+    padding-top: 10px;
+}
+
+.product-bg h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    margin-top: 20px;
+}
+
+/** END BODY **/
+
+/** BEGIN FOOTER **/
+
+footer {
+    font-size: 1.5rem;
+}
+
+.icons {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.social {
+    color: white;
+}
+
+.social:hover {
+    color: black;
+}
+
+/** END FOOTER **/
+
+/** Extra Small (575px and below) **/
+@media (max-width: 575px) {
+    
+    .product-bg {
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .product-bg img {
+        width: 50%;
+    }
+
+    .row1, .row2, .row3, .row4, .row5 {
+        margin-top: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .row1 div, .row2 div, .row3 div, .row4 div, .row5 div {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+}
+
+/** Small devices (landscape phones, 576px and up) **/
+@media (min-width: 576px) and (max-width: 767px) { 
+    
+    .product-bg {
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .product-bg img {
+        width: 50%;
+    }
+
+    .row1, .row2, .row3, .row4, .row5 {
+        margin-top: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .row1 div, .row2 div, .row3 div, .row4 div, .row5 div {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+ }
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .product-bg {
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .product-bg img {
+        width: 50%;
+    }
+
+    .row1, .row2, .row3, .row4, .row5 {
+        margin-top: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .row1 div, .row2 div, .row3 div, .row4 div, .row5 div {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+ }
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+ }
+
+/** Extra large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) { ... }
+
+
+
+}
