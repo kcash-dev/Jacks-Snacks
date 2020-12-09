@@ -7,6 +7,16 @@ body {
     font-family: 'Padauk', sans-serif;
 }
 
+.offering-link {
+    text-decoration: none;
+    color: black;
+}
+
+.offering-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
 /** BEGIN NAVBAR **/
 
 #logo {
@@ -137,6 +147,10 @@ h1 {
     font-size: 1.3rem;
 }
 
+.offering1-bg p:hover, .offering2-bg p:hover {
+    font-size: 1.5rem;
+}
+
 .offering1-bg, .offering2-bg {
     background-color: white;
     border-radius: 10px;
@@ -146,6 +160,10 @@ h1 {
     border: 3px dashed #fbbfe3;
     margin-left: auto;
     margin-right: auto;
+}
+
+.offering1-bg:hover, .offering2-bg:hover {
+    width: 100%;
 }
 
 
