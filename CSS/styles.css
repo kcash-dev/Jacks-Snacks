@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    font-family: 'Padauk', sans-serif;
 }
 
 /** BEGIN NAVBAR **/
@@ -115,6 +116,13 @@ h1 {
     font-size: 3.5rem;
     color: black;
     margin-bottom: 20px;
+    background: #fbbfe3;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border: 3px dashed white;
+    margin-top: 40px;
 }
 
 .offering1-bg h3, .offering2-bg h3 {
@@ -136,14 +144,11 @@ h1 {
     height: 280px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     border: 3px dashed #fbbfe3;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.offering1-bg:hover, .offering2-bg:hover {
-    height: 300px;
-    width: 100%;
-}
+
 
 /** END BODY **/
 
