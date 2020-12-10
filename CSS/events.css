@@ -1,0 +1,73 @@
+body {
+    background: url(/Images/Background.JPG) no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Padauk', sans-serif;
+}
+
+.offering-link {
+    text-decoration: none;
+    color: black;
+}
+
+.offering-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/** BEGIN NAVBAR **/
+
+#logo {
+    font-size: 2.5rem;
+    text-shadow: 2px 0 0 #fbbfe3, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    padding-top: 5px;
+}
+
+.navbar {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7rem;
+}
+
+#nav, .navbar {
+    background-image: url(/Images/sprinkles.png) no-repeat;
+    background-size: cover;
+    padding-top: 0;
+}
+
+.nav-item .nav-link {
+    text-decoration: none;
+    text-shadow: 2px 0 0 #fbbfe3, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: white;
+}
+
+/**END NAVBAR**/
+
+/** BEGIN BODY **/
+
+.h1 {
+    background: #fbbfe3;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border: 3px dashed white;
+    margin-top: 40px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.5rem;
+}
+
+/** END BODY **/
