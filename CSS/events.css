@@ -53,6 +53,45 @@ body {
 
 /** BEGIN BODY **/
 
+.calendar iframe {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border: 3px dashed white;
+    margin-top: 40px;
+    font-family: 'Padauk', sans-serif;
+}
+
+.calendar h2 {
+    margin-top: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.events {
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border: 3px dashed #fbbfe3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.events-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.events-img img {
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
 .h1 {
     background: #fbbfe3;
     margin-right: auto;
@@ -67,7 +106,26 @@ h1 {
     color: black;
     font-weight: bold;
     font-family: 'Dancing Script', cursive;
-    font-size: 5.5rem;
+    font-size: 4rem;
 }
 
 /** END BODY **/
+
+/** START FOOTER **/
+footer {
+    font-size: 1.5rem;
+}
+
+.icons {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.social {
+    color: white;
+}
+
+.social:hover {
+    color: black;
+}
+/** END FOOTER **/
