@@ -126,12 +126,9 @@ h4 {
     margin-top: 20px;
 }
 
-hr {
-    border: 3px solid #fbbfe3;
-}
-
 .hr1 {
     margin-top: 50px;
+    border: 2px solid #fbbfe3;
 }
 
 .main-img {
